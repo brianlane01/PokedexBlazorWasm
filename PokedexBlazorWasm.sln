@@ -5,6 +5,12 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokedexBlazorWasm.BlazorWas", "PokedexBlazorWasm.BlazorWas\PokedexBlazorWasm.BlazorWas.csproj", "{D2EF5408-319D-4A42-A956-2599988A4FB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokedexBlazorWasm.Data", "PokedexBlazorWasm.Data\PokedexBlazorWasm.Data.csproj", "{4DEA9CCA-859C-4A3E-8365-17CB46C2D24C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokedexBlazorWasm.Models", "PokedexBlazorWasm.Models\PokedexBlazorWasm.Models.csproj", "{DD5AA067-118A-4F87-A138-DEB206281F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokedexBlazorWasm.Services", "PokedexBlazorWasm.Services\PokedexBlazorWasm.Services.csproj", "{B9AC8658-950B-45E9-BD86-4AABA57AD69B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{D2EF5408-319D-4A42-A956-2599988A4FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2EF5408-319D-4A42-A956-2599988A4FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2EF5408-319D-4A42-A956-2599988A4FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEA9CCA-859C-4A3E-8365-17CB46C2D24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEA9CCA-859C-4A3E-8365-17CB46C2D24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEA9CCA-859C-4A3E-8365-17CB46C2D24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEA9CCA-859C-4A3E-8365-17CB46C2D24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5AA067-118A-4F87-A138-DEB206281F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5AA067-118A-4F87-A138-DEB206281F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5AA067-118A-4F87-A138-DEB206281F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5AA067-118A-4F87-A138-DEB206281F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AC8658-950B-45E9-BD86-4AABA57AD69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AC8658-950B-45E9-BD86-4AABA57AD69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AC8658-950B-45E9-BD86-4AABA57AD69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AC8658-950B-45E9-BD86-4AABA57AD69B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
